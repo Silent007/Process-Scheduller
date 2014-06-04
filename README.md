@@ -1,8 +1,14 @@
-
+<h2> CPU Process Scheduling | Simulator </h2>
 
 This is an excellent simulator for understanding scheduling algorithms.
 
-<h2> Scheduling </h2>
+This application is specially designed to simulate the short term scheduler
+in an operating system. Realize that a real operating system CPU scheduler will
+probably use multi level feedback queues, process aging, and any number of combinations
+of the algorithms used here, but the application serves as a way to percieve the algorithms visually.
+
+
+<h5> Scheduling </h5>
 
 The objective of multiprogramming is to have some process running at all times, to maximize CPU utilization.
 The objective of time sharing is to switch the CPU among processes so frequently. In uniprocessor only one
@@ -12,7 +18,7 @@ is to assign processes to be executed by the processor. Scheduling affects the p
 because it determines which process will wait and which will progress.
 
 
-<h2> Scheduling Algorithms </h2>
+<h5> Scheduling Algorithms </h5>
 
 
 Scheduling algorithms or scheduling policies are mainly used for short-term scheduling. The main objective of
@@ -29,14 +35,14 @@ List of scheduling algorithms are as follows:
  -	Round-Robin Scheduling algorithm
 
 
-<h2> Technology Stack </h2>
+<h5> Technology Stack </h5>
 
 This App is built using modern web technologies like :
 
  - HTML5 that comprises javascript and css3
- - HTML5 canvas that allows to display scriptable renderings of 2D shapes and bitmap images.
+ - HTML5 canvas that allows to display scriptable renderings of 2D shapes and bitmap images
  - jQuery Mobile that is a framework for creating mobile web applications
 
-<h2> Download & Run </h2>
+<h5> Download & Run </h5>
 
 This simulator is written in javascript and latest html5 canvas, so it will run on any browser supporting html5 canvas.
