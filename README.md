@@ -2,6 +2,8 @@
 
 This is an excellent simulator for understanding scheduling algorithms.
 
+<a href="http://process-simulator.herokuapp.com" target="_blank" style="font-size: 15pt;font-family: calibri;color: #008cba;text-decoration: none;color:white;background-color:#8DB2C8;width:120px;height:30px;border-radius:3px;display:inline-block;text-align:center;"> Demo </a>
+
 This application is specially designed to simulate the short term scheduler
 in an operating system. Realize that a real operating system CPU scheduler will
 probably use multi level feedback queues, process aging, and any number of combinations
@@ -45,4 +47,5 @@ This App is built using modern web technologies like :
 
 <h5> Download & Run </h5>
 
-This simulator is written in javascript and latest html5 canvas, so it will run on any browser supporting html5 canvas.
+Just simply clone/download and open index.html in browser.
+
