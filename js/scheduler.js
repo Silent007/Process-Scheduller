@@ -1,6 +1,8 @@
-// JavaScript Document	
+
 (function (window, $) {
+
     $(function () {
+
         $('#rotatescroll').tinycircleslider({ interval: true, snaptodots: true });
         $("#onSchedule").live("click", function () {
             var radioalg = $("input:radio[name:radioalgo]:checked").val();
@@ -52,6 +54,7 @@
         $("#onRefresh").one("click", function () {
             window.location.reload();
         });
+
         $("#onChromeDownload").one("click", function () {
             window.open("http://www.google.com/chrome/index.html?hl=en&brand=CHMB&utm_campaign=en&utm_source=en-ha-seaother-other-sk&utm_medium=ha#eula");
         });

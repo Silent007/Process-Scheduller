@@ -23,22 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="14" selection-start="5278" selection-end="5278" vertical-scroll-proportion="0.0" vertical-offset="644" max-vertical-offset="4080">
+            <state line="168" column="52" selection-start="7236" selection-end="7236" vertical-scroll-proportion="0.41997594" vertical-offset="2507" max-vertical-offset="4063">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="4" column="109" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="109" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
@@ -47,53 +44,79 @@
       <file leaf-file-name="scheduler.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/scheduler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="17" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0" vertical-offset="818" max-vertical-offset="1258">
+            <state line="13" column="42" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="729" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="algo.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/algo.js">
+      <file leaf-file-name="rr.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/algo/rr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="489" column="1" selection-start="0" selection-end="14966" vertical-scroll-proportion="0.0" vertical-offset="8030" max-vertical-offset="8415">
-              <folding />
+            <state line="30" column="4" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="3094">
+              <folding>
+                <element signature="n#!!doc;n#roundRobin#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fcfs.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/algo/fcfs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+              <folding>
+                <element signature="n#!!doc;n#fcfs#0" expanded="false" />
+                <element signature="n#!!block;n#fcfs#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spn.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/algo/spn.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="125" column="48" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.0" vertical-offset="1809" max-vertical-offset="2788">
+              <folding>
+                <element signature="n#!!doc;n#spn#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="srn.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/algo/srn.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="46" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+              <folding>
+                <element signature="n#!!doc;n#srn#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="queue.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/queue.js">
+        <entry file="file://$PROJECT_DIR$/js/util/queue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="1" selection-start="0" selection-end="2826" vertical-scroll-proportion="0.0" vertical-offset="1802" max-vertical-offset="1904">
+            <state line="27" column="1" selection-start="507" selection-end="507" vertical-scroll-proportion="-18.36" vertical-offset="0" max-vertical-offset="561">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/util/util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="1" selection-start="2174" selection-end="2174" vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="1445">
+              <folding>
+                <element signature="n#!!doc;n#serviceTime#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="qImage2.png" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img/qImage2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rrScreen.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/rrScreen.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spnScreen.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/spnScreen.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hdr9.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/hdr9.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -112,19 +135,25 @@
         <option value="$PROJECT_DIR$/css/jquery.mobile-1.0rc2.min.css" />
         <option value="$PROJECT_DIR$/version2.html" />
         <option value="$PROJECT_DIR$/css/website.css" />
-        <option value="$PROJECT_DIR$/js/scheduler.js" />
-        <option value="$PROJECT_DIR$/js/algo.js" />
-        <option value="$PROJECT_DIR$/js/queue.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/js/algo/fcfs.js" />
+        <option value="$PROJECT_DIR$/js/algo/srn.js" />
+        <option value="$PROJECT_DIR$/js/algo.js" />
+        <option value="$PROJECT_DIR$/js/algo/roundRobin.js" />
+        <option value="$PROJECT_DIR$/js/algo/rr.js" />
+        <option value="$PROJECT_DIR$/js/scheduler.js" />
+        <option value="$PROJECT_DIR$/js/queue.js" />
+        <option value="$PROJECT_DIR$/js/util/queue.js" />
+        <option value="$PROJECT_DIR$/js/util/util.js" />
+        <option value="$PROJECT_DIR$/js/algo/spn.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1932" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -152,7 +181,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,37 +195,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Process-Scheduller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="CDN Scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Process-Scheduller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CDN Scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Process-Scheduller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="E:/6th Semester/Operating System/Schedular/cdn scheduler" />
+    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Process-Scheduller\js\util" />
+      <recent name="H:\Process-Scheduller\js" />
       <recent name="C:\Users\Zeeshan\Downloads\CDN_Scheduler-2014-06-03\CDN Scheduler\img" />
       <recent name="C:\Users\Zeeshan\Downloads\CDN_Scheduler-2014-06-03\CDN Scheduler\javaScript\vendor" />
       <recent name="C:\Users\Zeeshan\Downloads\CDN_Scheduler-2014-06-03\CDN Scheduler\css" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -208,15 +263,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -238,14 +301,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32790446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947807" sideWeight="0.67209554" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -254,7 +318,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -277,225 +340,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="14" selection-start="5278" selection-end="5278" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="2342" selection-end="2342" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/scheduler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="17" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0" vertical-offset="818" max-vertical-offset="1258">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/algo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="489" column="1" selection-start="0" selection-end="14966" vertical-scroll-proportion="0.0" vertical-offset="8030" max-vertical-offset="8415">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/queue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="1" selection-start="0" selection-end="2826" vertical-scroll-proportion="0.0" vertical-offset="1802" max-vertical-offset="1904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/qImage2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/rrScreen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/spnScreen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/hdr9.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="14" selection-start="5278" selection-end="5278" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="119" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/scheduler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="17" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0" vertical-offset="818" max-vertical-offset="1258">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/algo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="489" column="1" selection-start="0" selection-end="14966" vertical-scroll-proportion="0.0" vertical-offset="8030" max-vertical-offset="8415">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/queue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="1" selection-start="0" selection-end="2826" vertical-scroll-proportion="0.0" vertical-offset="1802" max-vertical-offset="1904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/qImage2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/rrScreen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/spnScreen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/hdr9.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="0" selection-start="5459" selection-end="5459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/scheduler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="17" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0" vertical-offset="818" max-vertical-offset="1258">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/algo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="489" column="1" selection-start="0" selection-end="14966" vertical-scroll-proportion="0.0" vertical-offset="8030" max-vertical-offset="8415">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/queue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="1" selection-start="0" selection-end="2826" vertical-scroll-proportion="0.0" vertical-offset="1802" max-vertical-offset="1904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/qImage2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/rrScreen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/spnScreen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/hdr9.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="0" selection-start="5459" selection-end="5459" vertical-scroll-proportion="0.0" vertical-offset="2016" max-vertical-offset="4080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/scheduler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="17" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0" vertical-offset="818" max-vertical-offset="1258">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/algo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="489" column="1" selection-start="0" selection-end="14966" vertical-scroll-proportion="0.0" vertical-offset="8030" max-vertical-offset="8415">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/queue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="1" selection-start="0" selection-end="2826" vertical-scroll-proportion="0.0" vertical-offset="1802" max-vertical-offset="1904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/qImage2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/rrScreen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/spnScreen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/hdr9.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/website.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="17" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
@@ -531,40 +375,76 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/algo.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="489" column="1" selection-start="0" selection-end="14966" vertical-scroll-proportion="0.0" vertical-offset="8030" max-vertical-offset="8415">
+        <state line="4" column="109" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/queue.js">
+    <entry file="file://$PROJECT_DIR$/js/algo/fcfs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="1" selection-start="0" selection-end="2826" vertical-scroll-proportion="0.0" vertical-offset="1519" max-vertical-offset="1904">
-          <folding />
+        <state line="4" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <folding>
+            <element signature="n#!!doc;n#fcfs#0" expanded="false" />
+            <element signature="n#!!block;n#fcfs#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/algo/srn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="46" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+          <folding>
+            <element signature="n#!!doc;n#srn#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scheduler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="17" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0" vertical-offset="818" max-vertical-offset="1258">
+        <state line="13" column="42" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="729" max-vertical-offset="1309">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util/queue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="1" selection-start="507" selection-end="507" vertical-scroll-proportion="-18.36" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="1" selection-start="2174" selection-end="2174" vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="1445">
+          <folding>
+            <element signature="n#!!doc;n#serviceTime#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/algo/rr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="4" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="3094">
+          <folding>
+            <element signature="n#!!doc;n#roundRobin#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/algo/spn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="48" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.0" vertical-offset="1809" max-vertical-offset="2788">
+          <folding>
+            <element signature="n#!!doc;n#spn#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="14" selection-start="5278" selection-end="5278" vertical-scroll-proportion="0.0" vertical-offset="644" max-vertical-offset="4080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="4" column="109" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+        <state line="168" column="52" selection-start="7236" selection-end="7236" vertical-scroll-proportion="0.41997594" vertical-offset="2507" max-vertical-offset="4063">
           <folding />
         </state>
       </provider>

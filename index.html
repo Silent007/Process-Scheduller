@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Version 2</title>
+    <title>Simulator</title>
 
+    <!-- style files -->
     <link rel="stylesheet" href="css/jquery.mobile-1.0rc2.min.css"/>
     <link rel="stylesheet" href="css/website.css" type="text/css" media="screen"/>
 
+    <!-- vendor files -->
     <script type="text/javascript" src="js/vendor/jquery-1.7b2.js"></script>
     <script type="text/javascript" src="js/vendor/jquery.mobile-1.0rc2.min.js"></script>
     <script type="text/javascript" src="js/vendor/slider/jquery.tinycircleslider.min.js"></script>
+    <!-- event handler -->
     <script type="text/javascript" src="js/scheduler.js"></script>
-    <script type="text/javascript" src="js/algo.js"></script>
-    <script type="text/javascript" src="js/queue.js"></script>
+    <!-- algorithm files -->
+    <script type="text/javascript" src="js/algo/fcfs.js"></script>
+    <script type="text/javascript" src="js/algo/spn.js"></script>
+    <script type="text/javascript" src="js/algo/srn.js"></script>
+    <script type="text/javascript" src="js/algo/rr.js"></script>
+    <!-- utility files -->
+    <script type="text/javascript" src="js/util/queue.js"></script>
+    <script type="text/javascript" src="js/util/util.js"></script>
 
 </head>
 <body>
@@ -58,25 +67,21 @@
         </table>
         <!-- </div> -->
     </div>
-    <footer data-role="footer" data-position="fixed">&copy; Zeeshan Hassan</footer>
+    <footer data-role="footer" data-position="fixed">&copy; <a href="http://pk.linkedin.com/pub/zeeshan-hassan-memon/4b/631/4a3/" target="_blank" class="ui-link">Zeeshan Hassan</a></footer>
 </section>
 <!-- end first page -->
 
 <!-- Begin second page -->
 <section id="page2" data-role="page">
-    <!--<header data-role="header" data-position="fixed"><h1>Page 2</h1></header>-->
     <nav data-role="navbar">
         <ul>
             <li><a href="#page1" class="ui-btn-active">Title</a></li>
-            <!--<li><a href="#page3" data-rel="dialog">Tutorial</a></li>-->
         </ul>
     </nav>
     <div data-role="content" class="content">
         <p>
 
         <form name="form1">
-            <!-- <fieldset>
-            <legend > Provide Input</legend>-->
             <table>
                 <tr>
                     <td></td>
@@ -88,7 +93,7 @@
                     <td>
                         <blockquote></blockquote>
                     </td>
-                    <td><!--<div data-role="fieldcontain">-->
+                    <td>
                         <fieldset data-role="controlgroup" data-type="horizontal">
                             <legend>Select Algorithm</legend>
                             <input type="radio" name="radioalgo" value="fcfs" id="radio-fcfs" checked="checked">
@@ -113,7 +118,6 @@
                 </tr>
 
             </table>
-            <!-- </fieldset>-->
         </form>
         <div data-role="controlgroup" data-type="horizontal">
             <a href="#" data-role="button" id="onSchedule" title="Schedule">Schedule</a>
@@ -138,7 +142,6 @@
             <li><a href="#page2" data-transition="slideup">Scheduler</a></li>
             <li><a href="#page4" data-transition="slideup">Round-Robin</a></li>
             <li><a href="#page5" data-transition="slideup">Shortes Job Next</a></li>
-            <!--<li><a href="#">Fifth</a></li>-->
         </ul>
     </nav>
     <div data-role="content" class="content">
@@ -159,7 +162,7 @@
         </table>
 
     </div>
-    <footer data-role="footer" data-position="fixed"><h1>&copy; Shan</h1></footer>
+    <footer data-role="footer" data-position="fixed"><h1>&copy; <a href="http://pk.linkedin.com/pub/zeeshan-hassan-memon/4b/631/4a3/" target="_blank" class="ui-link">Zeeshan Hassan</a></h1></footer>
 </section>
 <!-- end third page -->
 <!-- page 4 start -->
@@ -173,7 +176,6 @@
             <li><a href="#page2" data-transition="slidedown">Scheduler</a></li>
             <li><a href="#page3" data-transition="slidedown">Roll-back</a></li>
             <li><a href="#page5" data-transition="slidedown">Shortes Job Next</a></li>
-            <!--<li><a href="#">Fifth</a></li>-->
         </ul>
         <div class="content" data-role="content">
             <h3> Round Robin </h3>
@@ -195,7 +197,7 @@
             </table>
         </div>
         <footer data-role="footer" data-position="fixed">
-            <h3>&copy; Zeeshan Hassan</h3>
+            <h3>&copy; <a href="http://pk.linkedin.com/pub/zeeshan-hassan-memon/4b/631/4a3/" target="_blank" class="ui-link">Zeeshan Hassan</a></h3>
         </footer>
 </section>
 <!-- page 4 end -->
@@ -210,7 +212,6 @@
             <li><a href="#page2" data-transition="slidedown">Scheduler</a></li>
             <li><a href="#page4" data-transition="slidedown">Round-Robin</a></li>
             <li><a href="#page3" data-transition="slidedown">Roll-back</a></li>
-            <!--<li><a href="#">Fifth</a></li>-->
         </ul>
         <div class="content" data-role="content" data-track-theme="f">
             <h3> Shortest Process Next </h3>
@@ -224,11 +225,9 @@
 
         </div>
         <footer data-role="footer" data-position="fixed">
-            <h3>&copy; Zeeshan Hassan</h3>
+            <h3>&copy; <a href="http://pk.linkedin.com/pub/zeeshan-hassan-memon/4b/631/4a3/" target="_blank" class="ui-link">Zeeshan Hassan</a></h3>
         </footer>
 </section>
-<!-- page 5 end -->
-
 
 </body>
 </html>
