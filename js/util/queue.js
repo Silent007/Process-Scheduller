@@ -7,12 +7,12 @@ function Queue() {
 }
 
 Queue.prototype.enq = function (element) {
-    var temp = [];
-    temp = this.ready;
+    var tempp = [];
+    tempp = this.ready;
     this.ready = [];	//clear
     this.ready.push(element);
-    for (var i in temp)
-        this.ready.push(temp[i]);
+    for (var i in tempp)
+        this.ready.push(tempp[i]);
 }
 
 Queue.prototype.deq = function () {
