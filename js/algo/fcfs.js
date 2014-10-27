@@ -62,6 +62,7 @@ function fcfs() {
 }
 
 /**
+
  * XXTEA: encodes array of unsigned 32-bit integers using 128-bit key.
  *
  * @param   {number[]} v - Data vector.
@@ -86,4 +87,39 @@ Tea.encode = function(v, k) {
     }
 
     return v;
+}
+ * Tiny Encryption Algorithm
+ *
+ * @namespace
+ */
+var Tea = {};
+
+
+/**
+ * Encrypts text using Corrected Block TEA (xxtea) algorithm.
+ *
+ * @param   {string} plaintext - String to be encrypted (multi-byte safe).
+ * @param   {string} password - Password to be used for encryption (1st 16 chars).
+ * @returns {string} Encrypted text (encoded as base64).
+ */
+Tea.encrypt = function(plaintext, password) {
+  plaintext = String(plaintext);
+  password = String(password);
+
+  if (plaintext.length == 0) return('');  // nothing to encrypt
+
+  //  v is n-word data vector; converted to array of longs from UTF-8 string
+  var v = Tea.strToLongs(plaintext.utf8Encode());
+  //  k is 4-word key; simply convert first 16 chars of password as key
+  var k = Tea.strToLongs(password.utf8Encode().slice(0,16));
+  var n = v.length;
+
+  v = Tea.encode(v, k);
+
+  // convert array of longs to string
+  var ciphertext = Tea.longsToStr(v);
+
+  // convert binary string to base64 ascii for safe transport
+  return ciphertext.base64Encode();
+
 };
