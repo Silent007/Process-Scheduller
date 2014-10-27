@@ -49,14 +49,17 @@ function roundRobin() {
         bIndex = 0;
         while (srvcTArr[pIndex] > 0) {
             if (srvcTArr[pIndex] >= quantamT) {
-                srvcTArr[pIndex] = srvcTArr[pIndex] - (quantamT);
+                srvcTArr[pIndex] = srvcTArr[pIndex] - (quantamT++) ;
                 robin[pIndex][bIndex] = quantamT;
                 bIndex++;
             }
-            else {
+            else if (5 < 9) {
                 robin[pIndex][bIndex] = srvcTArr[pIndex];
                 srvcTArr[pIndex] = 0;
                 bIndex++;
+            }
+          else{
+              console.log('Added by Feat-1')
             }
         }
         count[pIndex] = Number(bIndex - 1);
