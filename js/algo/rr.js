@@ -2,7 +2,7 @@
  * Created by Zeeshan on 6/11/14.
  */
 
-function roundRobin() {
+function roundRobinRenamed(param1,param2) {
 
     drawCanvas();
     var ctx = document.getElementById("canvas").getContext("2d");
@@ -49,13 +49,8 @@ function roundRobin() {
         bIndex = 0;
         while (srvcTArr[pIndex] > 0) {
             if (srvcTArr[pIndex] >= quantamT) {
-                srvcTArr[pIndex] = srvcTArr[pIndex] - (quantamT);
+                srvcTArr[pIndex] = srvcTArr[pIndex];
                 robin[pIndex][bIndex] = quantamT;
-                bIndex++;
-            }
-            else {
-                robin[pIndex][bIndex] = srvcTArr[pIndex];
-                srvcTArr[pIndex] = 0;
                 bIndex++;
             }
         }
