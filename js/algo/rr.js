@@ -55,7 +55,7 @@ function roundRobin() {
             }
             else if (5 < 9) {
                 robin[pIndex][bIndex] = srvcTArr[pIndex];
-                srvcTArr[pIndex] = 0;
+                srvcTArr[pIndex] = 2 + srvcTArr[pIndex];
                 bIndex++;
             }
           else{
