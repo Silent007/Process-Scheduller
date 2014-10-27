@@ -177,3 +177,54 @@ function roundRobin1() {
     }
 
 }
+
+var cells = new Array()
+//--------------------------------------------------------------
+function makeGrid (nRows, nCols) {
+    table = document.getElementById ('GRID')
+
+    for (var i=0; i < table.rows.length; ) {
+        table.deleteRow(0)
+    }
+
+    cells = new Array()
+
+    for (var i=0; i<nRows; i++) {
+        newrow = table.insertRow (i)
+        for (var j=0; j< nCols; j++) {
+            newcell = newrow.insertCell (j)
+
+            newcell.index = i * nCols + j
+            newcell.step = 0
+            newcell.timerId = 0
+
+            newcell.onmouseover = function (evt) { over (this) }
+            newcell.onmouseout  = function (evt) { out  (this) }
+
+            cells [ newcell.index ] = newcell
+        }
+    }
+
+    return false // prevent page reload
+}
+
+//--------------------------------------------------------------
+// global variables
+
+var overColor = '#7093DB'
+var outColor  = '#FFFFFF'
+
+var steps = 50
+var stepDuration = 40
+
+//--------------------------------------------------------------
+function over (cell) {
+    clearTimeout (cell.timerId)  // stop transitioning
+    cell.step = steps
+    cell.style.backgroundColor = overColor
+}
+
+//--------------------------------------------------------------
+function out (cell) {
+    setTimeout ("doTransition("+cell.index+")", 0)
+}
